@@ -1,0 +1,218 @@
+.body {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.product--section {
+  display: flex;
+}
+
+.header {
+  width: 100%;
+  height: 45px;
+  background-size: cover;
+  background-image: url("https://res.cloudinary.com/dg0telgxq/image/upload/v1699428540/nav_mws8xm.jpg");
+}
+.h-img {
+  width: 100%;
+  height: 100%;
+}
+
+.thumbnails {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.thumbnail-img {
+  width: 40px;
+  height: 50px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border: 1px solid #4f4f4f;
+  border-radius: 5px;
+}
+
+.thumbnail-img:hover {
+  box-shadow: 2.1px 2.1px 12.9px rgba(56, 189, 248),
+    5px 5px 27px rgba(56, 189, 248);
+}
+
+.large--image--container {
+  width: 35%;
+  height: 100%;
+}
+
+.lg--img {
+  height: 100%;
+  width: 100%;
+  margin-left: -150px;
+  margin-top: 50px;
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 40%;
+  padding: 20px;
+}
+
+.item--name {
+  color: "#332D2D";
+  font: 22px, "Roboto", "sans-serif";
+  margin: 0px 0px 8px;
+  text-align: start;
+}
+
+.item--sub--info {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+  font-size: 20px;
+  color: #e4a11b;
+}
+
+.star {
+  color: "#E4A11B";
+  font: 16px, "Roboto", "sans-serif";
+  margin: 0px 8px 4px 0px;
+}
+
+.orders {
+  color: #757575;
+  font: 16px, "Roboto", "sans-serif";
+}
+
+.price {
+  color: #4f4f4f;
+  font: 20px "Roboto", "sans-serif";
+  margin: 0px 0px 8px;
+}
+
+.info1 {
+  color: #4f4f4f;
+  font: 16px, "Roboto", "sans-serif";
+  margin: 0px 0px 16px;
+  text-align: start;
+}
+
+.info2 {
+  color: #4f4f4f;
+  font: 16px, "Roboto", "sans-serif";
+  margin: 0px 0px 8px;
+}
+.row {
+  display: flex;
+  flex-direction: column;
+}
+.cont__1 {
+  display: flex;
+  margin-bottom: 10px;
+}
+.select {
+  color: #4f4f4f;
+  font: 19px, "Roboto", "sans-serif";
+  padding: 6px 36px 6px 12px;
+  height: 40px;
+  width: 200px;
+  background-color: #fff;
+}
+
+.size-quantity {
+  display: flex;
+  margin: 20px;
+  margin-left: 0;
+}
+
+.button1 {
+  color: #fff;
+  font: 20px;
+  padding: 10px 24px 8px;
+  background-color: #e4a11b;
+  border: none;
+  margin-right: 15px;
+  font-weight: bold;
+  height: 43px;
+  border-radius: 5px;
+}
+.button1:hover {
+  background-color: #eab308;
+}
+.button2 {
+  color: #fff;
+  font: 20px;
+  padding: 10px 24px 8px;
+  background-color: #3b71ca;
+  border: none;
+  margin-right: 15px;
+  font-weight: bold;
+  height: 43px;
+  border-radius: 5px;
+}
+.button2:hover {
+  background-color: #0891b2;
+}
+
+.button3 {
+  color: #4f4f4f;
+  font: 20px;
+  padding: 8px 16px;
+  border: 0.5px solid #4f4f4f;
+  text-align: center;
+  height: 43px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.button3:hover {
+  color: #3b71ca;
+  border: 1px solid #3b71ca;
+}
+
+.qnt-cont {
+  border-radius: 5px !important;
+  height: 40px;
+}
+
+.qnt--btn {
+  width: 45px;
+  color: #000;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25;
+  border: 1px solid #4f4f4f;
+  background-color: #fff;
+  height: 100%;
+}
+
+.input {
+  width: 80px;
+  color: #4f4f4f;
+  text-align: center;
+  height: 90%;
+  border-left: none;
+  border-right: none;
+  border-top: 1px solid #4f4f4f;
+  border-bottom: 1px solid #4f4f4f;
+}
+
+.img1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  border: 1px solid #4f4f4f;
+  margin-right: 25px;
+}
+
+.img1:hover {
+  border: 2px solid #facc15;
+}
